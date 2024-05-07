@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["submit"])) {
             $servername = "127.0.0.1";
             $username = "root";
             $password = "";
-            $database = "your_database_name";
+            $database = "tablebook";
 
             // Command to import the SQL file into the database
             $command = "mysql -u$username -p$password $database < $destination";
